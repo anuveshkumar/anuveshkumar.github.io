@@ -26,6 +26,14 @@ body{
   text-align: right;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.hover{
+  color: #1ebba3;
+}
 
 
 /*--- Start of Landing Page Section ---*/
@@ -173,7 +181,7 @@ blockquote{
 
 /*--- Testimonials Section Start ---*/
 #testimonials .container-fluid{
-  background-color: #40474e;
+  background-color: #2d3135;
   z-index: -1;
   padding:28px;
 }
@@ -191,6 +199,11 @@ blockquote{
 
 .carousel-item h3{
   color:white;
+}
+
+.test-title{
+  padding: 12px;
+  font-weight: 800;
 }
 /*--- Testimonials Section Ends ---*/
 
